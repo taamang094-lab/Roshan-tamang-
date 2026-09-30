@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roshan Tamang | Portfolio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #222;
+    }
+
+    /* Header */
+    .hero {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 55px 20px;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin: 10px 0;
+    }
+
+    .hero p {
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #1877f2;
+      color: white;
+      text-decoration: none;
+      padding: 13px 22px;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+
+    /* Menu */
+    .menu {
+      background: white;
+      padding: 15px 5px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 8px #ddd;
+    }
+
+    .menu a {
+      display: inline-block;
+      margin: 5px 7px;
+      color: #222;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Sections */
+    .section {
+      background: white;
+      margin: 20px 15px;
+      padding: 28px 20px;
+      border-radius: 15px;
+      box-shadow: 0 3px 12px #ddd;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-top: 0;
+      font-size: 26px;
+    }
+
+    .section p {
+      font-size: 17px;
+      line-height: 1.7;
+      color: #555;
+    }
+
+    /* Services */
+    .service {
+      background: #f4f6f8;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 17px;
+    }
+
+    /* Portfolio */
+    .gallery {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    .work {
+      background: #f4f6f8;
+      padding: 20px 10px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .work-icon {
+      font-size: 45px;
+    }
+
+    .work h3 {
+      margin: 10px 0 5px;
+    }
+
+    .work p {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    /* Contact */
+    .contact a {
+      display: block;
+      background: #f4f6f8;
+      margin: 12px 0;
+      padding: 14px;
+      border-radius: 10px;
+      color: #222;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .facebook {
+      background: #1877f2 !important;
+      color: white !important;
+    }
+
+    /* Footer */
+    .footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 22px;
+      margin-top: 30px;
+    }
+
+    /* Mobile */
+    @media (max-width: 500px) {
+      .hero h1 {
+        font-size: 30px;
+      }
+
+      .gallery {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .menu a {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HOME -->
+  <div class="hero" id="home">
+
+    <p>
+      📸 Photographer |
+      🎨 Graphic Designer |
+      🎬 Video Editor |
+      💻 Web Designer
+    </p>
+
+    <h1>Roshan Tamang</h1>
+
+    <p>
+      मेरो व्यक्तिगत Portfolio Website मा स्वागत छ 👋
+    </p>
+
+    <a class="btn" href="#portfolio">
+      View My Work
+    </a>
+
+  </div>
+
+
+  <!-- MENU -->
+  <div class="menu">
+
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+
+  </div>
+
+
+  <!-- ABOUT -->
+  <div class="section" id="about">
+
+    <h2>👤 About Me</h2>
+
+    <p>
+      नमस्ते! म <b>Roshan Tamang</b> हुँ।
+    </p>
+
+    <p>
+      म Photography, Graphic Design,
+      Video Editing र Web Design मा रुचि राख्छु।
+    </p>
+
+    <p>
+      यो मेरो व्यक्तिगत Portfolio Website हो।
+      यहाँ तपाईंले मेरो काम र सम्पर्कका माध्यमहरू
+      हेर्न सक्नुहुन्छ।
+    </p>
+
+  </div>
+
+
+  <!-- SERVICES -->
+  <div class="section" id="services">
+
+    <h2>💼 My Services</h2>
+
+    <div class="service">
+      📸 <b>Photography</b>
+      <br>
+      राम्रो र creative photography
+    </div>
+
+    <div class="service">
+      🎨 <b>Graphic Design</b>
+      <br>
+      Creative graphic design कामहरू
+    </div>
+
+    <div class="service">
+      🎬 <b>Video Editing</b>
+      <br>
+      Video editing र creative projects
+    </div>
+
+    <div class="service">
+      💻 <b>Web Design</b>
+      <br>
+      Simple र mobile-friendly websites
+    </div>
+
+  </div>
+
+
+  <!-- PORTFOLIO -->
+  <div class="section" id="portfolio">
+
+    <h2>🖼️ My Portfolio</h2>
+
+    <div class="gallery">
+
+      <div class="work">
+        <div class="work-icon">📸</div>
+        <h3>Photography</h3>
+        <p>
+          Photography का फोटोहरू
+        </p>
+      </div>
+
+      <div class="work">
+        <div class="work-icon">🎨</div>
+        <h3>Graphic Design</h3>
+        <p>
+          Graphic Design का कामहरू
+        </p>
+      </div>
+
+      <div class="work">
+        <div class="work-icon">🎬</div>
+        <h3>Video Editing</h3>
+        <p>
+          Video Editing का projects
+        </p>
+      </div>
+
+      <div class="work">
+        <div class="work-icon">💻</div>
+        <h3>Web Design</h3>
+        <p>
+          Website Design का कामहरू
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- CONTACT -->
+  <div class="section" id="contact">
+
+    <h2>📞 Contact</h2>
+
+    <a href="#">
+      📱 WhatsApp
+    </a>
+
+    <a href="mailto:your@email.com">
+      📧 Email
+    </a>
+
+    <a
+      class="facebook"
+      href="https://www.facebook.com/Tamang365pmt"
+      target="_blank">
+      📘 Facebook
+    </a>
+
+    <a href="#">
+      📷 Instagram
+    </a>
+
+    <a href="#">
+      🎵 TikTok
+    </a>
+
+  </div>
+
+
+  <!-- FOOTER -->
+  <div class="footer">
+
+    <p>
+      © 2026 Roshan Tamang
+    </p>
+
+    <p>
+      Made with ❤️ by Roshan Tamang
+    </p>
+
+  </div>
+
+</body>
+</html>
